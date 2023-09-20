@@ -4,7 +4,7 @@
 # PowerShell
 oci iam compartment list --query "data[0].\`"compartment-id\`""
 
-# Bash
+# Bash-OCI
 oci iam compartment list --query "data[0].\"compartment-id\""
 
 # Use the returned value for the variable parent_compartment_id
